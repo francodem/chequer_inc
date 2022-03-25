@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+
+{% block title %}Bienvenido | Titan {% endblock %}
+
+{% block carousel %}
+    <div class="carousel" style="margin: 0px 0 0 0px;">
+        {% include 'gallery.html' %}
+    </div> 
+{% endblock carousel %}
+
+{% block contentHome %}
+<div class="form">
+    {% include 'form.html' %}
+</div>
+<h1 style="margin: 800px 0 0 0px;" align="center">Bottom</h1>
+{% endblock contentHome %}
+

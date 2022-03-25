@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Nosotros | Titan{% endblock %}
+
+{% block contentAbout %}
+    <div class="container_in_aboutus">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+        <p style='margin: 0px 0 0 0px; font-size: 40px;'>Nosotros</p>
+        <p style='margin: 10px 0 0 20px; font-size: 15px;' align='left'>Somos una empresa dedicada al giro de la construcción</p>
+        <p style='margin: 5px 0 0 20px; font-size: 15px;' align='left'>civil y manejo de gruas hidráulicas para obras de baja,</p>
+        <p style='margin: 5px 0 0 20px; font-size: 15px;' align='left'>media y alta magnitud...</p>
+        <img src="{{ url_for('static', filename='images/portada_titan-2.jpeg')}}" width="400px" height="280px" style='margin: -75px 0 0 500px;' class="titan-truck">
+        <div class="rectangle_aboutus" style="margin: -295px 0 0 0px;"></div> 
+    </div>
+{% endblock contentAbout %}

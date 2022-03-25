@@ -1,0 +1,138 @@
+body.app-container{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #fdfdfd; 
+}
+
+.navbar-nav .navbar.navbar-expand-lg.navbar-dark.fixed-top{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.534); 
+    backdrop-filter: blur(5px);
+    position: fixed top;
+}
+
+.navbar-nav .navbar.navbar-expand-lg.navbar-dark.fixed-top .logo{
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Viga', sans-serif;
+}
+
+.navbar-nav .navbar.navbar-expand-lg.navbar-dark.fixed-top .img_logo{
+    width: 70px;
+    height: 70px;
+    margin-left: 150px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.container_aboutus{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container_aboutus .container_in_aboutus{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.container-home{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.head-title{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-family: 'Lalezar', cursive;
+}
+
+.container-carousel{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* .container-carousel .carousel .carousel.slide.carousel-fade{
+    font-family: Arial;
+} */
+/* Corregir problema con las fuentes en el contenedor */ 
+.container-carousel .carousel .carousel.slide.carousel-fade .carousel-inner .carousel-item.active .carousel-caption.d-none.d-md-block{
+    font-family: 'Oswald';
+}
+
+.container-carousel .carousel .carousel.slide.carousel-fade .carousel-inner .carousel-item.active .carousel-caption.d-none.d-md-block .subtitleA{
+    font-family: Arial;
+}
+
+.container-carousel .carousel .carousel.slide.carousel-fade .carousel-inner .carousel-item .subtitleB{
+    font-family: Arial;
+}
+
+.navbar-nav .rectangle_black_top{
+    border-radius: 0%;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+img.titan-truck{
+    border-radius: 2%;
+    margin-right: 100px;
+    margin-left: 100px;
+    box-shadow: 5px 5px 2px rgb(236, 236, 236);
+}  
+
+div.rectangle_aboutus {
+    border-radius: 2%;
+    height: 310px;
+    width: 420px;
+    background-color: rgb(243, 243, 243);
+}
+
+.container-home .rectangle_yellow_home{
+    border-radius: 2%;
+    height: 720px;
+    width: 1400px;
+    background-color: rgb(255, 196, 0);
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.container-home .text_title_home{
+    font-family: 'Titan One', cursive;
+}
+
+.container-home .form{
+    height: 500px;
+    width: 500px;
+    margin-left: 50%;
+    margin-right: 0px;
+    margin-top: 8%;
+    margin-bottom: 0px;
+}

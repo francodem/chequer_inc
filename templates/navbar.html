@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <a href="{{url_for('home')}}">
+    <img class="img_logo" src="{{ url_for('static', filename='images/logo_titan.png')}}"> 
+  </a>
+  <div class="logo">
+    <p>Titán</p>
+  </div>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="{{url_for('about_us')}}" style="margin: 0px 0 0 130px;">Nosotros<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Servicios</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menú
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Proyectos</a>
+          <a class="dropdown-item" href="#">Presupuestos</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Contacto</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0" method="POST" >
+      <input class="form-control mr-sm-2" style="margin: 0px 0 0 -350px;" type="search" placeholder="Buscar..." aria-label="Search" name="keywords">
+      <button type="submit" class="btn btn-outline-warning">ir</button>
+    </form>
+  </div>
+</nav>
+
+<div class="rectangle_black_top"></div>
